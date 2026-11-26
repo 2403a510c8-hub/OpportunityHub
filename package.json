@@ -1,0 +1,21 @@
+{
+  "name": "opportunity-hub",
+  "version": "1.0.0",
+  "description": "Unified platform connecting students and developers with internships, hackathons, and grants",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start": "node backend/server.js"
+  },
+  "keywords": [
+    "opportunity-hub",
+    "internships",
+    "hackathons",
+    "scholarships",
+    "react",
+    "node"
+  ],
+  "author": "Opportunity Hub Team",
+  "license": "MIT"
+}
